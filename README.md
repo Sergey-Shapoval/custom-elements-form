@@ -5,6 +5,6 @@
 npm install
 bower install
 
-####Build
+####*Build*
 
 gulp
