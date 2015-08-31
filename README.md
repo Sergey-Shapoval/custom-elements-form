@@ -1,10 +1,10 @@
 # Custom-elements-form
 
-##Getting Started
+###Getting Started
 
 npm install
 bower install
 
-##Build
+###Build
 
 gulp
