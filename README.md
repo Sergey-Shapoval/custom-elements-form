@@ -7,4 +7,4 @@ bower install
 
 ####Build
 
-*gulp
+gulp
