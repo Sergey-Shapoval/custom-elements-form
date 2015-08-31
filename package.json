@@ -1,0 +1,14 @@
+{
+  "name": "custom-elements-form",
+  "version": "0.1.0",
+  "description": "Form elements",
+  "author": "Sergey Shapoval",
+  "license": "MIT",
+  "homepage": "https://github.com/Sergey-Shapoval/custom-elements-form",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-watch": "^4.3.5"
+  }
+}

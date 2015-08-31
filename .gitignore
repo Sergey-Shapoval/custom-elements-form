@@ -1,0 +1,12 @@
+#Folder idea
+.idea/
+
+# SASS
+.sass-cache
+*.css.map
+
+# Dependency directory
+node_modules
+
+# Dest
+dest

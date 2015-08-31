@@ -1,0 +1,63 @@
+// ===========================
+// Base style  
+// ===========================
+
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: $color-white;
+  color: $color-black;
+  font: 12px/14px Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+a{
+  color: $color-lochmara;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+input,
+textarea,
+select {
+  color: $color-black;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}

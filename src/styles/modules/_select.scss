@@ -1,0 +1,30 @@
+// ===========================
+// Module: Select
+// ===========================
+
+.select {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  border: 1px solid $color-grey;
+  pointer-events: auto;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    z-index: 1;
+    margin: -3px 0 0;
+    border: 6px solid transparent;
+    border-top: 6px solid $color-black;
+  }
+
+  select {
+    padding: 5px 10px;
+    width: 130%;
+    background: $color-sundown;
+    color: $color-white;
+    border: 0;
+  }
+}

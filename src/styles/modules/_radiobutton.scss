@@ -1,0 +1,32 @@
+// ===========================
+// Module: Radiobutton
+// ===========================
+
+.radiobutton {
+  &__input {
+    display: none;
+  }
+
+  &__input:checked + label {
+    &:before {
+      background: $color-red;
+    }
+  }
+
+  &__title {
+    font-size: 14px;
+    cursor: pointer;
+
+    &:before {
+      content: "";
+      position: relative;
+      top: 3px;
+      display: inline-block;
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+      background-color: $color-lime-green;
+      border-radius: 50%;
+    }
+  }
+}

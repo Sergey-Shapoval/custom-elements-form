@@ -1,0 +1,35 @@
+// ===========================
+// Module: Checkbox
+// ===========================
+
+.checkbox {
+
+  &__input {
+    display: none;
+  }
+
+  &__input:checked + label {
+    &:before {
+      background: $color-lochmara;
+      border: 1px solid $color-white;
+    }
+  }
+
+  &__title {
+    font-size: 14px;
+    cursor: pointer;
+
+    &:before {
+      content: "";
+      position: relative;
+      top: 3px;
+      display: inline-block;
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+      background-color: $color-grey;
+      border: 1px solid $color-lochmara;
+      border-radius: 2px;
+    }
+  }
+}
