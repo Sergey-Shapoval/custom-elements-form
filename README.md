@@ -2,8 +2,8 @@
 
 ####Getting Started
 
-__npm install__
-__bower install__
+npm install    
+bower install
 
 ####Build
 
